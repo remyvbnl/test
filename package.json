@@ -1,0 +1,15 @@
+{
+  "name": "erweb",
+  "version": "1.0.0",
+  "description": "just a website made with hate",
+  "main": "client.js",
+  "scripts": {
+    "test": "ng serve"
+  },
+  "keywords": [
+    "website",
+    "angular"
+  ],
+  "author": "remy",
+  "license": "ISC"
+}
