@@ -41,7 +41,9 @@ router.route('/issues/:id').get((req, res) => {
 
 router.route('/issues/add').post((req, res) => {
     let issue = new Issue(req.body);
+    let userid = new Issue(req.body.userid)
     issue.save()
+    userid.save()
         .then(issue => {
             res.status(200).json({'issue': 'Added successfully'})
         })
